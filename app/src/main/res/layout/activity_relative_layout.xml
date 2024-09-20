@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, My name is Jorim Pablico"/>
+
+    <TextView
+        android:id="@+id/mytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myname"
+        android:text="I’m an IT student with a passion for front-end development. I’m skilled in HTML, CSS, and programming languages like C#, C++, and Java. Right now, I’m learning Android development and plan to work on Android app projects once I finish my studies. Outside of tech, I enjoy playing basketball and spending time alone at home."/>
+
+    <Button
+        android:id="@+id/click_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mytxt"
+        android:text="Click me"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/click_btn"
+        android:text="© 2024 Pablico | All rights reserved" />
+
+</RelativeLayout>
